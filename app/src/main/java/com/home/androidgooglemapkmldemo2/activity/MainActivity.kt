@@ -32,7 +32,7 @@ class MainActivity : BaseActivity() {
         try {
             val kmlLayer = Renderer.KmlLayer(
                 mMap,
-                R.raw.campus,
+                R.raw.taiwan,
                 applicationContext
             )
             kmlLayer.addLayerToMap()
